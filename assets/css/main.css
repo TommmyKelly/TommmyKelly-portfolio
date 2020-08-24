@@ -59,6 +59,9 @@ input, select, textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none; }
+  .logo {
+    margin-left: 10px;
+  }
 
 /* Basic */
 @-ms-viewport {
