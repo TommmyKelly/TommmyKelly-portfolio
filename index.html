@@ -9,6 +9,7 @@
 		<title>Thomas Kelly</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -25,8 +26,8 @@
 									
 									<ul class="icons">
 										<li><a href="https://twitter.com/tommykelly_" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-										<!-- <li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li> -->
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">Snapchat</span></a></li>
 										<li><a href="https://www.instagram.com/tommykelly100" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 										<li><a href="mailto:tommy_kelly@icloud.com" target="_blank" class="icon solid fa-envelope"><span class="label">Medium</span></a></li>
 									</ul>
@@ -36,8 +37,8 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>Hi, Portfolio<br />
-											by Thomas Kelly.</h1>
+											<h1 id="name" class="tracking-in-expand" >Tommy kelly</h1>
+											<h1 class="java-script-text" data-words='["Developer.","Designer.","Creator."]' data-wait="3000">
 											<!-- <p>A free and fully responsive site template</p> -->
 										</header>
 										<!-- <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p> -->
@@ -45,7 +46,7 @@
 											<li id="contact-info"><a href="#" class="button big">Contact Info</a></li>
 										</ul>
 									</div>
-									<span class="image object">
+									<span id="main-image" class="image object scale-in-center">
 										<img src="images/main.png" alt="" />
 									</span>
 								</section>
@@ -93,7 +94,7 @@
 										<h2>Projects</h2>
 									</header>
 									<div class="posts">
-										<article>
+										<article data-aos="fade-down-right" data-aos-delay="120">
 											<a href="https://coronatracker.viper1424.repl.co/" target="_blank" class="image"><img src="images/covidtracker.PNG" alt="" /></a>
 											<h3>Covid Tracker</h3>
 											<p>This the website I created for the PWJ competion which I won. This was a great honor to win as it was a global competion.</p>
@@ -101,7 +102,7 @@
 												<li><a href="https://coronatracker.viper1424.repl.co/" target="_blank"  class="button">View project</a></li>
 											</ul>
 										</article>
-										<article>
+										<article  data-aos="fade-up-left" data-aos-delay="120">
 											<a href="https://weather.viper1424.repl.co/" target="_blank"  class="image"><img src="images/WeatherApp.PNG" alt="" /></a>
 											<h3>Weather web app</h3>
 											<p>This is a weather web app I created.</p>
@@ -109,7 +110,7 @@
 												<li><a href="https://weather.viper1424.repl.co/" target="_blank"  class="button">View project</a></li>
 											</ul>
 										</article>
-										<article>
+										<article data-aos="fade-up-right" data-aos-delay="120">
 											<a href="https://number-game.viper1424.repl.co/" target="_blank" class="image"><img src="images/NumberGame.PNG" alt="" /></a>
 											<h3>Number Game</h3>
 											<p>This is a fun guess the number game I creater.</p>
@@ -117,7 +118,7 @@
 												<li><a href="https://number-game.viper1424.repl.co/" target="_blank" class="button">View project</a></li>
 											</ul>
 										</article>
-										<article>
+										<article data-aos="fade-down-left" data-aos-delay="120">
 											<a href="https://relaxer.viper1424.repl.co/" target="_blank" class="image"><img src="images/Relaxer.PNG" alt="" /></a>
 											<h3>Breathing web app</h3>
 											<p>This is a breating web app I created.</p>
@@ -126,11 +127,11 @@
 											</ul>
 										</article>
 										<article>
-											<a href="https://number-facts.viper1424.repl.co/" target="_blank" class="image"><img src="images/numberFacts.PNG" alt="" /></a>
+											<a href="http://number-facts.viper1424.repl.co/" target="_blank" class="image"><img src="images/numberFacts.PNG" alt="" /></a>
 											<h3>Number Fact</h3>
 											<p>This is a fun number fact project I created.</p>
 											<ul class="actions">
-												<li><a href="https://number-facts.viper1424.repl.co/" target="_blank" class="button">View project</a></li>
+												<li><a href="http://number-facts.viper1424.repl.co/" target="_blank" class="button">View project</a></li>
 											</ul>
 										</article>
 										<article>
@@ -280,6 +281,10 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/main2.js"></script>
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration:1800});
+  </script>
 
 	</body>
 </html>
