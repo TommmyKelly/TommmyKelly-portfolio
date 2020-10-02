@@ -1712,9 +1712,7 @@ button,
       .features article .content > :last-child {
         margin-bottom: 0; }
 
-        .attical{
-          
-        }
+        
   @media screen and (max-width: 980px) {
     .features {
       margin: 0 0 2em 0;
