@@ -191,11 +191,21 @@ h6 {
 
 @media screen and (max-width: 1680px) {
   h1 {
-    font-size: 3.5em; } }
+    font-size: 3.5em; };
+    #sidebar{
+      height: 100vh;
+    }
+
+  
+  }
 
 @media screen and (max-width: 980px) {
   h1 {
-    font-size: 3.25em; } }
+    font-size: 3.25em; };
+    #sidebar{
+      height: 100vh;
+    }
+   }
 
 @media screen and (max-width: 736px) {
   h1 {
@@ -2095,13 +2105,16 @@ button,
   background-color: #f5f6f7;
   font-size: 0.9em;
   position: relative;
-  width: 26em; }
+  width: 26em;
+  
+ }
   #sidebar h2 {
     font-size: 1.38889em; }
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
-    width: 26em; }
+    width: 26em;
+  }
     #sidebar > .inner > * {
       border-bottom: solid 2px rgba(210, 215, 217, 0.75);
       margin: 0 0 3.5em 0;
@@ -2177,7 +2190,8 @@ button,
         left: 24em;
         line-height: 6.25em;
         text-indent: 5em;
-        width: 5em; }
+        width: 5em; 
+      }
         #sidebar .toggle:before {
           font-size: 1.5rem; }
       #sidebar.inactive {
