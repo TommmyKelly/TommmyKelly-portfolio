@@ -5,9 +5,9 @@ const mainImage = document.getElementById('main-image')
 const nameTitle = document.getElementById('name')
 
 
-window.addEventListener('resize',function(){
-    location.reload()
-})
+// window.addEventListener('resize',function(){
+//     location.reload()
+// })
 
 // $(window).resize(function() {
 //     location.reload();
@@ -101,5 +101,5 @@ function init(){
     new TypeWriter(txtElement, words, wait)
 }
 
-mainImage.addEventListener('animationend',()=> mainImage.classList.add('jello-horizontal'))
-nameTitle.addEventListener('animationend',init)
+mainImage.addEventListener('animationend',()=> mainImage.classList.add('jello-horizontal'),{once: true})
+nameTitle.addEventListener('animationend',init,{once: true})
