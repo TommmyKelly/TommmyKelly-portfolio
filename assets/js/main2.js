@@ -101,5 +101,16 @@ function init(){
     new TypeWriter(txtElement, words, wait)
 }
 
+function sendmail(){
+    $.ajax({
+         url: "https://formsubmit.co/ajax/tommy_kelly@icloud.com",
+         method: "POST",
+         data: {
+          name: "FormSubmit",
+          message: "I'm from Devro LABS"
+         },
+         dataType: "json"
+        });
+}
 mainImage.addEventListener('animationend',()=> mainImage.classList.add('jello-horizontal'),{once: true})
 nameTitle.addEventListener('animationend',init,{once: true})
